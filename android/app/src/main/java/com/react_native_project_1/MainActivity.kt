@@ -1,4 +1,5 @@
 package com.react_native_project_1
+import android.os.Bundle;
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
@@ -12,6 +13,12 @@ class MainActivity : ReactActivity() {
    * rendering of the component.
    */
   override fun getMainComponentName(): String = "React_Native_Project_1"
+
+@override
+protected coid onCreate(Bundle savedInstnaceState){
+  super.onCreate(null);
+}
+
 
   /**
    * Returns the instance of the [ReactActivityDelegate]. We use [DefaultReactActivityDelegate]
